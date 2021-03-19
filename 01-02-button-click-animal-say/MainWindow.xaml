@@ -11,6 +11,14 @@
     <StackPanel>
         <!--S2.03  Vízszintes elrendezéssel jelenítjuk meg a macskával kapcsolatos tennivalókat -->
         <StackPanel Orientation="Horizontal">
+            <!--S2.04 Két gomb és egy szövegmező-->
+            <Button x:Name="btnCat" Margin="5">
+                <Button.Content>
+                        A macska köszönti gazdáját
+                </Button.Content>
+            </Button>
+            <Button x:Name="btnCatTextDelete" Content="Törölje a köszöntést" Visibility="Visible" Margin="5"/>
+            <TextBlock x:Name="txtCat" Text="Ide kerül az üzenet..." Margin="5"/>
         </StackPanel>
     </StackPanel>
 </Window>
