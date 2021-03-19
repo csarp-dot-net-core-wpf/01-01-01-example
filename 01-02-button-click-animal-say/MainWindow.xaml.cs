@@ -41,7 +41,9 @@ namespace _01_02_button_click_animal_say
 
         private void btnCatTextDelete_Click(object sender, RoutedEventArgs e)
         {
-
+            // S2.12 Töröljük a köszöntést és a törlés gombot eltüntetjük
+            txtCat.Text = String.Empty;
+            btnCatTextDelete.Visibility = Visibility.Hidden;
         }
     }
 }
