@@ -23,5 +23,8 @@
             <Button x:Name="btnCatTextDelete" Click="btnCatTextDelete_Click" Content="Törölje a köszöntést" Visibility="Hidden" Margin="5"/>
             <TextBlock x:Name="txtCat" Text="Ide kerül az üzenet..." Margin="5"/>
         </StackPanel>
+        <!-- 21-->
+        <StackPanel Orientation="Horizontal">
+        </StackPanel>
     </StackPanel>
 </Window>
