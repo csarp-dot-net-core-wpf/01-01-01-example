@@ -17,7 +17,8 @@
                         A macska köszönti gazdáját
                 </Button.Content>
             </Button>
-            <Button x:Name="btnCatTextDelete" Content="Törölje a köszöntést" Visibility="Visible" Margin="5"/>
+            <!-- S2.05 A második gombot láthatatlanná tesszük -->
+            <Button x:Name="btnCatTextDelete" Content="Törölje a köszöntést" Visibility="Hidden" Margin="5"/>
             <TextBlock x:Name="txtCat" Text="Ide kerül az üzenet..." Margin="5"/>
         </StackPanel>
     </StackPanel>
