@@ -27,6 +27,8 @@ namespace _01_02_button_click_animal_say
 
         public MainWindow()
         {
+            // S2.08 Az osztály konstruktorába példányosítjuk a macskát
+            luna = new Cat("Luna");
             InitializeComponent();
         }
 
