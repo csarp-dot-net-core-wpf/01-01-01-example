@@ -11,8 +11,9 @@
     <StackPanel>
         <!--S2.03  Vízszintes elrendezéssel jelenítjuk meg a macskával kapcsolatos tennivalókat -->
         <StackPanel Orientation="Horizontal">
-            <!--S2.04 Két gomb és egy szövegmező-->
-            <Button x:Name="btnCat" Margin="5">
+            <!--S2.04 Két gomb és egy szövegmező -->
+            <!--S2.06 A btnCat gombhoz Click eseményt rendelünk -->
+            <Button x:Name="btnCat" Click="btnCat_Click" Margin="5">
                 <Button.Content>
                         A macska köszönti gazdáját
                 </Button.Content>

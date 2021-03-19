@@ -24,5 +24,10 @@ namespace _01_02_button_click_animal_say
         {
             InitializeComponent();
         }
+
+        private void btnCat_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
