@@ -1,5 +1,5 @@
 # 01-01-01-example
-## WPF alaklamazás példák
+## WPF button, textblock, stackpanel, click esemény
 Használható tagek
 ### Gombok az ablakban:
 S1.01           Ablak címe és ablak mérete  
