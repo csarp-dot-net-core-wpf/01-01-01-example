@@ -23,5 +23,9 @@
             <Button x:Name="btnCatTextDelete" Click="btnCatTextDelete_Click" Content="Törölje a köszöntést" Visibility="Hidden" Margin="5"/>
             <TextBlock x:Name="txtCat" Text="Ide kerül az üzenet..." Margin="5"/>
         </StackPanel>
+        <!-- S2.13 HF: Készítsünk a kutya és más háziállatok esetén is köszöntést! -->
+        <StackPanel Orientation="Horizontal">
+            
+        </StackPanel>
     </StackPanel>
 </Window>
