@@ -13,11 +13,11 @@ namespace _01_02_button_click_animal_say.model
         /// <summary>
         /// A macska neve
         /// </summary>
-        public string name;
+        private string name;
         /// <summary>
         /// A macska így köszönti gazdáját
         /// </summary>
-        public string greet;
+        private string greet;
 
         /// <summary>
         /// Konstruktor
@@ -26,7 +26,7 @@ namespace _01_02_button_click_animal_say.model
         public Cat(string name)
         {
             this.name = name;
-            this.greet = " meow meow";
+            this.greet = "miaú-miaú";
         }
 
         /// <summary>
@@ -35,7 +35,8 @@ namespace _01_02_button_click_animal_say.model
         /// <returns></returns>
         public override string ToString()
         {
-            string output = name + " cat says: " + greet;
+            // S2.10 Javítjuk az osztályt (refactoring). Magyarul köszön. Adattagok private.
+            string output = name + " macska mondja: " + greet+".";
             return output;
         }
     }
