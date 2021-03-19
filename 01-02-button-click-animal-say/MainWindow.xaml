@@ -7,7 +7,10 @@
         xmlns:local="clr-namespace:_01_02_button_click_animal_say"
         mc:Ignorable="d"
         Title="A gazdasági udvar reggel..." Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <!--S2.03 StackPanel elrendezést használunk-->
+    <StackPanel>
+        <!--S2.03  Vízszintes elrendezéssel jelenítjuk meg a macskával kapcsolatos tennivalókat -->
+        <StackPanel Orientation="Horizontal">
+        </StackPanel>
+    </StackPanel>
 </Window>
