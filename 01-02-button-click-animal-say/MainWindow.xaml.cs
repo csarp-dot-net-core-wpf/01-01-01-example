@@ -38,5 +38,10 @@ namespace _01_02_button_click_animal_say
             txtCat.Text = luna.ToString();
             btnCatTextDelete.Visibility = Visibility.Visible;
         }
+
+        private void btnCatTextDelete_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

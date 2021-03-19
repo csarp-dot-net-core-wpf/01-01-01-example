@@ -19,7 +19,8 @@
                 </Button.Content>
             </Button>
             <!-- S2.05 A második gombot láthatatlanná tesszük -->
-            <Button x:Name="btnCatTextDelete" Content="Törölje a köszöntést" Visibility="Hidden" Margin="5"/>
+            <!-- S2.11 Click eseményt rendelünk a gombhoz -->
+            <Button x:Name="btnCatTextDelete" Click="btnCatTextDelete_Click" Content="Törölje a köszöntést" Visibility="Hidden" Margin="5"/>
             <TextBlock x:Name="txtCat" Text="Ide kerül az üzenet..." Margin="5"/>
         </StackPanel>
     </StackPanel>
