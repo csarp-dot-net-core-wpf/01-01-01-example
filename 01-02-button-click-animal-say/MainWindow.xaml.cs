@@ -13,6 +13,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using _01_02_button_click_animal_say.model;
+
 namespace _01_02_button_click_animal_say
 {
     /// <summary>
@@ -20,6 +22,9 @@ namespace _01_02_button_click_animal_say
     /// </summary>
     public partial class MainWindow : Window
     {
+        // S2.07 A MainWindows egy osztály. Felveszünk benne egy Cat adattagot.
+        private Cat luna;
+
         public MainWindow()
         {
             InitializeComponent();
