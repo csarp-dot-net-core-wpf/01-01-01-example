@@ -34,7 +34,9 @@ namespace _01_02_button_click_animal_say
 
         private void btnCat_Click(object sender, RoutedEventArgs e)
         {
-
+            // S2.09 Megjelenítjük a köszöntő szöveget és láthatóvá tesszük a törlő gombot
+            txtCat.Text = luna.ToString();
+            btnCatTextDelete.Visibility = Visibility.Visible;
         }
     }
 }
