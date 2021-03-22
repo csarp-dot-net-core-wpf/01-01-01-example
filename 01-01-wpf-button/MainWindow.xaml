@@ -45,7 +45,9 @@
         A gombot eltüntetjük, majd a háttérkódban fogjuk megjeleníteni és eltüntetni.
         -->
         <!--#endregion-->
-        <Button x:Name="btnDeleteText" Content="Szöveg törlése" Visibility="Hidden" Height="40" Width="120" Margin="20 10 5 20">
+        <!--#region S1.08 Click esemény a másik gombhoz is -->
+        <!--#endregion-->
+        <Button x:Name="btnDeleteText" Content="Szöveg törlése" Click="btnDeleteText_Click" Visibility="Hidden" Height="40" Width="120" Margin="20 10 5 20">
         </Button>
     </StackPanel>
 </Window>

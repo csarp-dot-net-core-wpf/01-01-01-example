@@ -33,5 +33,10 @@ namespace _01_01_wpf_button
             txtHello.Text = "Helló világ!";
             btnDeleteText.Visibility = Visibility.Visible;
         }
+
+        private void btnDeleteText_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
