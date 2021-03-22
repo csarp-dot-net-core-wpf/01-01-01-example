@@ -38,6 +38,34 @@
         -->
         <!--#endregion-->
         <Button x:Name="btnHello" Content="Kattints rám" Click="btnHello_Click" Height="30" Width="120" Margin="20 10 5 20" >
+            <!--#region S1.10 Gomb stílus -->
+            <!--
+                Stílus amely a gombok háttérszínét megváltoztatja, ha a gombra rávisszük az egeret.
+            -->
+            <!--#endregion-->
+            <!--#region S1.10 Gomb stílus -->
+            <!--
+                Stílus amely a gombok háttérszínét megváltoztatja, ha a gombra rávisszük az egeret.
+            -->
+            <!--#endregion-->
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Name="border" BorderThickness="1" Padding="4,2" BorderBrush="DarkGray" CornerRadius="3" Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Name="content"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Yellow"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
         </Button>
         <TextBlock x:Name="txtHello" HorizontalAlignment="Center" >Itt jelenik meg az üzenet...</TextBlock>
         <!--#region S1.05 Gomb eltüntetése -->
