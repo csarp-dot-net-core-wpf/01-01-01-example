@@ -27,7 +27,11 @@ namespace _01_01_wpf_button
 
         private void btnHello_Click(object sender, RoutedEventArgs e)
         {
-
+            // S1.07 A Click eseményhez rendelt kód
+            //       A txtHello TextBlock feliratát (Text) megváltoztatjuk.
+            //       A btnDeleteText gombot megjeleníti.
+            txtHello.Text = "Helló világ!";
+            btnDeleteText.Visibility = Visibility.Visible;
         }
     }
 }
