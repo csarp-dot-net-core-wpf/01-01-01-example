@@ -8,7 +8,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_01_01_wpf_button"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Helló világ program" Height="250" Width="400">
+<!--#region S1.02 Ablak cím és méret -->
+<!--
+        S1.02 Ablak cím és méret módosítása.
+-->
+<!--#endregion-->
     <Grid>
 
     </Grid>
