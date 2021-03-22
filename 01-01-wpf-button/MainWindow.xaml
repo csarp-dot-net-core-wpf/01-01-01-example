@@ -22,6 +22,18 @@
     -->
     <!--#endregion-->
     <StackPanel Orientation="Vertical">
-
+        <!--#region S1.04 Gombok és felirat -->
+        <!-- Elhelyezünk két gombot és egy szövegmezőt.
+        1. Az x:Name attribútum bármilyen objektumon megadható. A mögöttes kódban a megadott x:Name azonosítóval 
+           megegyező változóban lesz elérhető a példányosított objektum (http://nyelvek.inf.elte.hu/leirasok/XAML/index.php?chapter=4#section_2).
+        2. A Content tulajdonság objektum, ezért lehet egy egyszerű szöveg, de akár egy színátmenetes kitöltésű ellipszis is.
+        3. Height, width és margin tulajdonságok értelemszerűen használhatók. A margó lehet minden irányban ugyan annyi, vagy irányonként más.
+        -->
+        <!--#endregion-->
+        <Button x:Name="btnHello" Content="Kattints rám" Height="30" Width="120" Margin="20 10 5 20" >
+        </Button>
+        <TextBlock x:Name="txtHello" HorizontalAlignment="Center" >Itt jelenik meg az üzenet...</TextBlock>
+        <Button x:Name="btnDeleteText" Content="Szöveg törlése"  Height="40" Width="120" Margin="20 10 5 20">
+        </Button>
     </StackPanel>
 </Window>
