@@ -36,7 +36,11 @@ namespace _01_01_wpf_button
 
         private void btnDeleteText_Click(object sender, RoutedEventArgs e)
         {
-
+            // S1.09 A másik Click eseményhez rendelt kód
+            //       A txtHello TextBlock szövegét törli.
+            //       A btnDeleteText gombot eltünteti.
+            txtHello.Text = string.Empty;
+            btnDeleteText.Visibility = Visibility.Hidden;
         }
     }
 }
