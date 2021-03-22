@@ -30,7 +30,14 @@
         3. Height, width és margin tulajdonságok értelemszerűen használhatók. A margó lehet minden irányban ugyan annyi, vagy irányonként más.
         -->
         <!--#endregion-->
-        <Button x:Name="btnHello" Content="Kattints rám" Height="30" Width="120" Margin="20 10 5 20" >
+        <!--#region S1.06 Click esemény-->
+        <!--
+        A gombokhoz események rendelhetők. Pl. a rákattintás (Click) esemény.
+        Az eseményhez pedig a háttérben futó kód rendelhető.
+        Ezt a kódot most a MainWindows.xaml.cs állományba kell írni. Ott folytatjuk
+        -->
+        <!--#endregion-->
+        <Button x:Name="btnHello" Content="Kattints rám" Click="btnHello_Click" Height="30" Width="120" Margin="20 10 5 20" >
         </Button>
         <TextBlock x:Name="txtHello" HorizontalAlignment="Center" >Itt jelenik meg az üzenet...</TextBlock>
         <!--#region S1.05 Gomb eltüntetése -->

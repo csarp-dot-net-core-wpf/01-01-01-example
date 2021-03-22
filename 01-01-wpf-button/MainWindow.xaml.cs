@@ -24,5 +24,10 @@ namespace _01_01_wpf_button
         {
             InitializeComponent();
         }
+
+        private void btnHello_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
