@@ -33,7 +33,12 @@
         <Button x:Name="btnHello" Content="Kattints rám" Height="30" Width="120" Margin="20 10 5 20" >
         </Button>
         <TextBlock x:Name="txtHello" HorizontalAlignment="Center" >Itt jelenik meg az üzenet...</TextBlock>
-        <Button x:Name="btnDeleteText" Content="Szöveg törlése"  Height="40" Width="120" Margin="20 10 5 20">
+        <!--#region S1.05 Gomb eltüntetése -->
+        <!--
+        A gombot eltüntetjük, majd a háttérkódban fogjuk megjeleníteni és eltüntetni.
+        -->
+        <!--#endregion-->
+        <Button x:Name="btnDeleteText" Content="Szöveg törlése" Visibility="Hidden" Height="40" Width="120" Margin="20 10 5 20">
         </Button>
     </StackPanel>
 </Window>
