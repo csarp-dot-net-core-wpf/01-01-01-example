@@ -5,14 +5,14 @@ Használható tagek
 S1.01           Ablak címe és ablak mérete  
 S1.02           Ablak cím és méret módosítása  
 S1.03           Stack Panel  
-S1.03.01        Gombok és felirat  
-S1.04           Gomb eltüntetése  
-S1.05           Click esemény  
-S1.06           A Click eseményhez rendelt kód  
-S1.07           Click esemény a másik gobhoz is  
-S1.08           A másik Click eseményhez rendelt kód  
-S1.09           Gomb stílus  
-S1.10           Gomb sablon  
+S1.04           Gombok és felirat  
+S1.05           Gomb eltüntetése  
+S1.06           Click esemény  
+S1.07           A Click eseményhez rendelt kód  
+S1.08           Click esemény a másik gombhoz is  
+S1.09           A másik Click eseményhez rendelt kód  
+S1.10           Gomb stílus  
+S1.11           Gomb sablon   
 ### "Reggel a háziállatok köszöntik gazdájukat"
 S2.01           Macska osztály  
 S2.02           Megadjuk az ablak nevét  
