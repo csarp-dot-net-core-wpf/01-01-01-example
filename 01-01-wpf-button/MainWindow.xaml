@@ -14,7 +14,14 @@
         S1.02 Ablak cím és méret módosítása.
 -->
 <!--#endregion-->
-    <Grid>
+    <!--#region S1.03 Stack Panel -->
+    <!-- A Grid helyett használjunk StackPanel réteget.
+     A gyerekelemeit egymásután veremszerűen helyezi el. Felsorolásokra nagyon jól használható.
+     Most függöleges lessz az iránya.
+     http://sztrabi.web.elte.hu/wp-content/EVA2/lecture07/lecture07.html#/step-5
+    -->
+    <!--#endregion-->
+    <StackPanel Orientation="Vertical">
 
-    </Grid>
+    </StackPanel>
 </Window>
